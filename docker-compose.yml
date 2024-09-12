@@ -70,7 +70,7 @@ services:
       context: .
       dockerfile: docker/Dockerfile.front.dev
     ports:
-      - 3000:3000
+      - 3001:3000
     volumes:
       - ./frontend/:/home/node/
     command: >
